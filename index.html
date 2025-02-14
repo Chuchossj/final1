@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don constructor</title>
+    <link rel="icon" href="imagenes/logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <input type= "checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+            <a class="inicio" href="index.html"><img src="imagenes/logo.png"></a>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="aboutus.html">Acerca de nosotros</a></li>
+            <li><a class="active" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Edificando confianza</h1>
+    <p>Soluciones arquitectónicas innovadoras y sostenibles para cada obra.</p>
+    
+         <a href="proyectos.html"><button class="learn-more">Ver Proyectos</button></a>
+        </div>
+        <div class="shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <h1>Diseño y construcción a la medida de tus necesidades</h1>
+        <a href="servicios.html" class="learn-more">Servicios</a>
+
+        <div class="grid">
+            <div class="card">
+                <img src="imagenes/servicios1.jpeg" alt="Commercial">
+                <h3>Comercial</h3>
+                <p>Almacenes, exteriores, centros comerciales</p>
+            </div>
+            <div class="card">
+                <img src="imagenes/servicios2.jpeg" alt="Residential">
+                <h3>Residencial</h3>
+                <p>Vecindarios, múltiples viviendas</p>
+            </div>
+            <div class="card">
+                <img src="imagenes/servicios3.jpeg" alt="Infrastructure">
+                <h3>Infraestructura</h3>
+                <p>Carreteras, tuberías, etc.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about-section">
+        <div class="about-content">
+            <h1>Don constructor</h1>
+            <p>
+                Somos Don Constructor, tus aliados para hacer realidad tus proyectos. Nos especializamos en brindar soluciones innovadoras con calidad y compromiso, destacando siempre por nuestra experiencia y dedicación.
+            </p>
+            <a href="aboutus.html" class="learn-more">Learn More</a>
+        </div>
+    </div>
+
+
+    <section class="projects">
+        <h1>Nuestros proyectos</h1>
+        <a href="proyectos.html" class="more-projects">Descubre mas</a>
+        <div class="carousel">
+            <div class="carousel-controls">
+                <button class="prev" onclick="prevSlide()">❮</button>
+                <button class="next" onclick="nextSlide()">❯</button>
+            </div>
+            <img src="imagenes/slider1.jpeg" alt="Project 1" class="active">
+            <img src="imagenes/slideer3.jpeg" alt="Project 2">
+            <img src="imagenes/slider3.jpeg" alt="Project 3">
+        </div>
+        <div class="indicators">
+            <span class="indicator active" onclick="setSlide(0)"></span>
+            <span class="indicator" onclick="setSlide(1)"></span>
+            <span class="indicator" onclick="setSlide(2)"></span>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section logo-section">
+                <a class="inicio" href="#">
+                    <img src="imagenes/logo.png" alt="Company Logo">
+                </a>
+                <p>Don Constructor</p>
+            </div>
+    
+            <div class="footer-section">
+                <h4>OFICINA</h4>
+                <p><strong>Dirección:</strong> Calle damaso alonso 19 3D, Alcalá de henares, Madrid</p>
+                <p><strong>Teléfono:</strong> 910 239 140</p>
+                <p><strong>Móvil:</strong> 634 191 964</p>
+                <p><strong>Email:</strong> donconstructoringenieros@gmail.com </p>
+            </div>
+    
+            <div class="footer-section">
+                <h4>NAVEGACIÓN</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="aboutus.html">Acerca de nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h4>SÍGUENOS</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/donconsingcons?igsh=ajYzaHhlOGl1dndk" target="_blank">Instagram</a><li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>
+                <a href="terminos.html">Términos y Condiciones</a> |
+                <a href="privacidad.html">Política de Privacidad</a> |
+                <a href="accesibilidad.html">Accesibilidad</a>
+            </p>
+            <p>Todos los derechos reservados © Don Constructor</p>
+        </div>
+    </footer>
+    
+    
+    <script src="java.js"></script>
+    </body>
+    </html>
+    
